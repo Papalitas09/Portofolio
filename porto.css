@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Pixelify+Sans:wght@400..700&display=swap');
+* {
+    gap: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body {
+  font-family: Pixelify Sans, sans-serif;
+  background-color: #2F4073;
+
+}
+
+.kepala{
+    position: fixed;
+    background-color: #50608F;
+    width: 100%;
+    height: 3.3rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    z-index: 100;
+    align-items: center;
+
+}
+
+.kepala h1 {
+    font-size: 2rem;
+    padding-left: 6rem;
+}
+
+.kepala a{
+    font-size: 1.3rem;
+    padding-right: 5rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-evenly;
+    
+}
+
+.jelaskan {
+    width: 40%;
+    position: relative;
+    height: auto;
+    line-height: 30px;
+    font-size: 1.4rem;
+}
+
+.foto {
+    min-height: 30rem;
+    width: 28rem;
+    margin-bottom: 6rem;
+    
+}
+
+.aboutme {
+    background-color: antiquewhite;
+    width: 100% ;
+    height: 50rem;
+}
+
+.aboutme h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.sejarah {
+    display: flex;
+    justify-content: space-evenly;
+    height: 25%;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.sekolah {
+    width: 20rem;
+    height: 5rem;
+    min-height: 5rem;
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+    border-radius: 15px;
+    border: 1px solid #061339;
+}
+
+.sekolah:hover {
+    background-color: #061339;
+    color: whitesmoke;
+}
+
+
+
+
+
+
