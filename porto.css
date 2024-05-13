@@ -19,22 +19,66 @@ body {
     height: 3.3rem;
     display: flex;
     justify-content: space-between;
-    padding: 0 2rem;
     z-index: 100;
     align-items: center;
-
 }
+
+
 
 .kepala h1 {
     font-size: 2rem;
     padding-left: 6rem;
 }
 
-.kepala a{
+.navbar {
     font-size: 1.3rem;
-    padding-right: 5rem;
+    color: #000;
+    display: flex;
+    padding-right: 10rem;
+    align-items: center;
+    
+}
+
+.navbar a, h3 {
     text-decoration: none;
     color: #000;
+    margin: 1rem;
+    padding-right: 5rem;
+}
+
+ .content  {
+    height: 0;
+    width: 120px;
+    background-color: #fff;
+    top: 53px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    transition: height 0.5s ease-in-out;
+    justify-content: center;
+    overflow: hidden;
+    padding-left: 2.8rem;
+    /* nanti fix dropdowqnny COK */
+    
+}
+
+.content a {
+    justify-content: center;
+    display: flex;
+    line-height: 0%;
+} 
+
+
+
+.drop:hover .content {
+    height: 80px;
+ 
+}
+
+.content a:hover {
+    background-color: #000;
+    
+
 }
 
 .home {
@@ -61,44 +105,4 @@ body {
     margin-bottom: 6rem;
     
 }
-
-.aboutme {
-    background-color: antiquewhite;
-    width: 100% ;
-    height: 50rem;
-}
-
-.aboutme h1 {
-    text-align: center;
-    font-size: 2.5rem;
-}
-
-.sejarah {
-    display: flex;
-    justify-content: space-evenly;
-    height: 25%;
-    align-items: center;
-    background-color: aliceblue;
-}
-
-.sekolah {
-    width: 20rem;
-    height: 5rem;
-    min-height: 5rem;
-    text-align: center;
-    position: relative;
-    padding-top: 20px;
-    border-radius: 15px;
-    border: 1px solid #061339;
-}
-
-.sekolah:hover {
-    background-color: #061339;
-    color: whitesmoke;
-}
-
-
-
-
-
 
