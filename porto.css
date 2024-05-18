@@ -58,6 +58,7 @@ body {
     justify-content: center;
     overflow: hidden;
     padding-left: 2.8rem;
+    margin-left: 15px;
     /* nanti fix dropdowqnny COK */
     
 }
@@ -106,3 +107,75 @@ body {
     
 }
 
+/* about me */
+
+.education {
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.education h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.isi{
+    background-color: #2F4073;
+    float: left;
+    margin:20px;
+    height: 30rem;
+}
+
+
+
+.garis {
+    background-color: #000;
+    width: 10px;
+    height: 30rem;
+    display: flex;
+    position: absolute;
+
+}
+
+.kolom {
+    background-color: violet;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+
+
+.kolom1 {
+    background-color: antiquewhite;
+    width: 35rem;
+    height: 6rem;
+}
+
+.kolom2 {
+    background-color: antiquewhite;
+    width: 35rem;
+    height: 6rem;
+}
+
+.kolom3 {
+    background-color: antiquewhite;
+    width: 35rem;
+    height: 6rem;
+}
+
+.kolom h3 {
+    text-align: center;
+    font-size: 30px;
+    
+
+}
+
+.kolom p {
+    text-align: center;
+}
