@@ -44,6 +44,8 @@ body {
     color: #000;
     margin: 1rem;
     padding-right: 5rem;
+    font-size: 1.5rem;
+    font-weight: normal;
 }
 
  .content  {
@@ -113,7 +115,8 @@ body {
     background-color: #fff;
     width: 100%;
     height: 100vh;
-
+    padding: 0 3rem;
+    
 }
 
 .education h1 {
@@ -121,26 +124,20 @@ body {
     font-size: 2.5rem;
 }
 
-.isi{
+.parent{
     background-color: #2F4073;
     float: left;
-    margin:20px;
     height: 30rem;
+    margin: 2rem 0;
+    
 }
 
 
 
-.garis {
-    background-color: #000;
-    width: 10px;
-    height: 30rem;
-    display: flex;
-    position: absolute;
 
-}
 
 .kolom {
-    background-color: violet;
+   
     height: 100%;
     width: 100%;
     display: flex;
@@ -148,34 +145,90 @@ body {
     justify-content: space-around;
     
     
+    
 }
 
-
-.kolom1 {
-    background-color: antiquewhite;
-    width: 35rem;
-    height: 6rem;
-}
-
-.kolom2 {
-    background-color: antiquewhite;
-    width: 35rem;
-    height: 6rem;
-}
-
-.kolom3 {
-    background-color: antiquewhite;
-    width: 35rem;
-    height: 6rem;
-}
-
-.kolom h3 {
+.kolom h2 {
     text-align: center;
-    font-size: 30px;
+    font-size: 2rem;
+  
+}
+
+
+.kotak {
+    border: solid 1.5px #000;
+    width: 31.8rem;
+    height: 6rem;
+    border-radius: 20px;
+
+}
+
+.kotak:hover {
+    background-color: #fff;
+    
+}
+
+.kotak h3 {
+    text-align: center;
+    font-size: 25px;
+    padding: 0;
+    
     
 
 }
 
-.kolom p {
+.kotak p {
     text-align: center;
+    line-height: 0%;
+
+}
+
+.skills {
+    background-color: #50608F;
+    float: right;
+    width: 35rem;
+    height: 30rem;
+    margin: 2rem 0;
+}
+
+
+
+.keterangan {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    height: 30rem;
+    
+    
+}
+
+.indikator {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fff;
+    width: 28rem;
+    justify-content: space-around;
+    
+}
+
+.indikator img {
+    width: 12rem;
+    height: 12rem;
+    background-color: #000;
+    border-radius: 8rem;
+    margin: 0 7.8rem;
+ }
+
+.indikator h3 {
+    padding: 0%;
+    border: solid 2px #000;
+    
+}
+
+.indikator h3:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+
 }
