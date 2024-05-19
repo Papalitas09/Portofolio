@@ -112,7 +112,7 @@ body {
 /* about me */
 
 .education {
-    background-color: #fff;
+   
     width: 100%;
     height: 100vh;
     padding: 0 3rem;
@@ -125,13 +125,12 @@ body {
 }
 
 .parent{
-    background-color: #2F4073;
+    
     float: left;
     height: 30rem;
     margin: 2rem 0;
     
 }
-
 
 
 
@@ -184,10 +183,10 @@ body {
 }
 
 .skills {
-    background-color: #50608F;
+    border: solid 1.5px #000;
     float: right;
     width: 35rem;
-    height: 30rem;
+    height: 32rem;
     margin: 2rem 0;
 }
 
@@ -196,7 +195,6 @@ body {
 .keterangan {
     display: flex;
     justify-content: center;
-    background-color: aqua;
     height: 30rem;
     
     
@@ -206,7 +204,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #fff;
+ 
     width: 28rem;
     justify-content: space-around;
     
@@ -231,4 +229,63 @@ body {
     color: #fff;
     cursor: pointer;
 
+}
+
+.project {
+   
+}
+
+.project h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.parentsblock {
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.projectblocks {
+    margin-top: 2rem;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.projecttext {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.projecttext h4 {
+    font-size: 1.5rem;
+    margin-top: 18rem;
+    text-align: center;
+}
+
+.projecttext:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+}
+
+.projecttext h3 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.projectblocks img {
+    width: 20rem;
 }
