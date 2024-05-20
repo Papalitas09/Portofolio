@@ -8,13 +8,13 @@
 
 body {
   font-family: Pixelify Sans, sans-serif;
-  background-color: #2F4073;
+  background-color: #114B5F;
 
 }
 
 .kepala{
     position: fixed;
-    background-color: #50608F;
+    background-color: #028090;
     width: 100%;
     height: 3.3rem;
     display: flex;
@@ -43,9 +43,10 @@ body {
     text-decoration: none;
     color: #000;
     margin: 1rem;
-    padding-right: 5rem;
+    padding-right: 1rem;
     font-size: 1.5rem;
     font-weight: normal;
+    cursor: pointer;
 }
 
  .content  {
@@ -59,8 +60,8 @@ body {
     transition: height 0.5s ease-in-out;
     justify-content: center;
     overflow: hidden;
-    padding-left: 2.8rem;
-    margin-left: 15px;
+    padding-left: 1rem;
+    margin-left: 8px;
     /* nanti fix dropdowqnny COK */
     
 }
@@ -75,11 +76,14 @@ body {
 
 .drop:hover .content {
     height: 80px;
+    
+    
+
  
 }
 
-.content a:hover {
-    background-color: #000;
+.content:hover {
+    cursor: pointer;
     
 
 }
@@ -106,8 +110,23 @@ body {
     min-height: 30rem;
     width: 28rem;
     margin-bottom: 6rem;
+    position: relative;
     
 }
+
+.changingimg {
+    position: absolute;
+    right: 16px;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+.changingimg:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
 
 /* about me */
 
@@ -164,6 +183,7 @@ body {
 
 .kotak:hover {
     background-color: #fff;
+    transition: 0.5s;
     
 }
 
@@ -222,17 +242,19 @@ body {
     padding: 0%;
     border: solid 2px #000;
     
+    
 }
 
 .indikator h3:hover {
     background-color: #000;
     color: #fff;
     cursor: pointer;
+    transition: 0.5s;
 
 }
 
 .project {
-   
+    margin-top: 8rem;
 }
 
 .project h2 {
@@ -288,4 +310,35 @@ body {
 
 .projectblocks img {
     width: 20rem;
+}
+
+/* footer */
+.Contact {
+    background-color: #E4FDE1;
+    width: 100%;
+    height: auto;
+}
+
+
+.Contact h3 {
+    text-align: center;
+    padding: 5px 0;
+    
+}
+
+.medsos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.medsos img {
+    width: 3rem;
+}
+
+.Contact h4 {
+    text-align: center;
+    margin-top: 3rem;
 }
