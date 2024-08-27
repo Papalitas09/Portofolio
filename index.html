@@ -3,114 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Satria</title>
-    <link rel="stylesheet" href="porto.css">
-    <link rel="icon" href="img/project.jpeg">
+    <title>Satria Raja Djuanda</title>
+    <link rel="icon" href="">
+    <script src="https://cdn.tailwindcss.com"></script>\
+  
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
-<body>
-    <!-- Navbar -->
-    <header class="kepala">
-        <h1>Satria.</h1>
-        <nav class="navbar">
-            <a href="#home">Home</a>
-            <div class="drop">
-                <h3>About me</h3>
-                <div class="content">
-                    <a href="#aboutme">Education</a>
-                    <a href="#aboutme">Skills</a>
+<body class="text-white font-serif " style="text-shadow:0 1.5px 0.5px black;">
+    <main>
+        <script src="/src/js/index.js"></script>
+        <!-- LandPage    -->
+        <section class="landpage w-screen h-screen bg-[url(/src/img/pxArt.png)] bg-no-repeat bg-cover flex items-center pl-36 ">
+            <div class="mb-17  w-[30rem] h-[20rem]">
+                <div class="Title flex">
+                <h1 class="text-8xl" >Satria.</h1>
+                <span class="garis border-r-[1px] border-slate-50/20 mx-2"></span>
+                <span class="text-xl mt-11">Game Developer</span>
                 </div>
+                <ul class="text-4xl flex flex-col justify-evenly">
+                    <li><a href="#AboutMe" class=hover:bg-black>Start Explore</a></li>
+                    <li><a href="#AboutMe" class=hover:bg-black>About me</a></li>
+                    <li><a href="#Projects" class=hover:bg-black>Projects</a></li>
+                    <li><a href="#Contact" class=hover:bg-black>Contact</a></li>
+                </ul>
             </div>
-            <a href="#project">My Project</a>
-            <a href="#footer">Contact</a>
-        </nav>
-    </header>
-
-    <!-- Home -->
-    <div class="home" id="home">
-        <div class="jelaskan">
-        <h1>Satria Raja Djuanda</h1>
-        <h5>Junior Game Developer</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto incidunt totam quas recusandae eius, facere dolorem qui dolore cupiditate nostrum, eaque porro eos ea tempora inventore dignissimos repellat odit quisquam.</p>
-    </div>
-    <div class="foto">
-        <img src="/img/foto.png" alt="satir">
-        <a href="https://youtu.be/mRW5gE-T87Q?si=i7Qh1qeRx08vrIut" target="_blank"><img class="changingimg" src="/img/foto1.png" alt="satir" title="Ga di click = gay"></a>
-    </div>
-    </div>
-
-    <!-- about me-->
-
-   <div class="aboutme" id="aboutme">
-        <!-- education  -->
-    <div class="education">
-            <h1>About me</h1>
-            <div class="parent">
-                <div class="kolom">
-                    <h2>Education</h2>
-                <div class="kotak">
-                        <h3>SDIT Alhasaniah</h3>
-                        <p>2014-2019</p>
-                </div>
-                <div class="kotak">
-                        <h3>SMP FAJAR</h3>
-                        <P>2019-2023</P>
-                </div>
-                <div class="kotak">
-                        <h3>SMK Plus Pelita Nusantara</h3>
-                        <p>Right Now</p>
-                </div>
-                </div>
+        </section>
+        <!-- About me -->
+        <section class="w-screen h-screen bg-[#3F3F3F] flex flex-col" id="AboutMe">
+            <div class=" | tittle | flex justify-center max-h-20 w-screen bg-purple my-4">
+                <h1 class="text-5xl flex items-center">About me</h1>
             </div>
-             <!-- skills -->
-            <div class="skills">
-                <div class="keterangan">
-                    <div class="indikator">
-                    <img src="img/foto.png" alt="">
-                    <h3>HTML & CSS</h3>
-                    <h3>PHP</h3>
-                    <h3>Visual Script</h3>
-                    <h3>C++</h3>
-                    <h3>Javascript</h3>
+            <div class="| kotak | bg-[#0000008E] h-[30rem] w-[78rem] mx-auto rounded-xl">
+                 <div class="|Gap| mx-[2.5rem]">
+                    <div class="|img+skill| float-right bg-[#3F3F3F] -slate-400 w-[18rem] flex flex-col mt-auto h-[25rem] rounded">
+                        <img src="/src/img/Satria Raja Djuanda.jpg" alt="" class="max-w-32 flex mx-auto mt-4 rounded-2xl">
+                        
+                        <div class="|Skills| flex flex-col max-w-[15rem] mx-auto mt-2">
+                            <h4 class="m-auto">My Skills</h4>
+                            <button onclick=toogle() id="buttonSkills" class="max-w-6 mx-auto" ><img src="/src/img/down-arrow.png" alt=""></button>
+                        </div>
+                            <div class="hidden w-[12rem] self-center h-[10rem] mb-[5rem]  " id="Skills">
+                                <div class=" flex flex-wrap m-auto justify-around overflow" >
+                                <img src="/src/img/unity.png" alt="" class="max-w-12 rounded-2xl  hover:p-1">
+                                <img src="/src/img/godot.png" alt="" class="max-w-12 roounded-2xl hover:p-1">
+                                <img src="/src/img/js.png" alt="" class="max-w-12 rounded hover:p-1">
+                                <img src="/src/img/html.png" alt="" class="max-w-12 rounded2xl hover:p-1">
+                                <img src="/src/img/css.jpg" alt="" class="max-w-12 rounded-2xl hover:p-1">
+                            
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-16 max-w-[55rem] "> 
+                        <h3 class="text-4xl mt-8">Satria Raja Djuanda</h3>
+                        <p class="text-3xl my-5">Hello 👋, I'm a Software Engineer Students from SMK Plus Pelita Nusantara.I have a big interest in Game Development.Curently i learn a C# for develop Games with UnityEngine, but I have some knowledge about GdScripts from Godot.Nice to meet you..</p>
                     </div>
                 </div>
+                
             </div>
-        </div>
-   </div>
+        </section>
+        <!-- Projects -->
+        <section class="w-screen h-screen bg-[#3F3F3F] px-10" id="Projects">
+            <h1 class="text-5xl text-center">Projects</h1>
+            <div class="flex justify-around mt-5 items-center h-[20rem] ">
+                <img src="/src/img/project.jpeg" alt="" class="max-w-[15rem] max-h-[15rem] hover:opacity-[0.8] "   >
+                <img src="/src/img/project.jpeg" alt="" class="max-w-[15rem] max-h-[15rem] hover:opacity-[0.8]  "   >
+                <img src="/src/img/project.jpeg" alt="" class="max-w-[15rem] max-h-[15rem] hover:opacity-[0.8]"   >
+                <img src="/src/img/project.jpeg" alt="" class="max-w-[15rem] max-h-[15rem]
+                hover:opacity-[0.8]"   >
+         
+            
+            </div>  
 
-   <div class="project" id="project">
-        <h2>My Project</h2>
-        <div class="parentsblock">
-        <div class="projectblocks">
-            <img src="img/project.jpeg" alt="">
-            <div class="projecttext">
-            <h4>My Project</h4>
+            <div class="flex justify-around">
+                <h2 class="text-3xl cursor-pointer hover:text-black ">Project</h2>
+                <h2 class="text-3xl cursor-pointer hover:text-black  ">Project</h2>
+                <h2 class="text-3xl cursor-pointer hover:text-black">Project</h2>
+                <h2 class="text-3xl cursor-pointer hover:text-black">Project</h2>
             </div>
-        </div>
-        <div class="projectblocks">
-            <img src="img/project.jpeg" alt="">
-            <div class="projecttext">
-            <h4>My Project</h4>
+          
+
+        </section>
+        <!-- Contact -->
+        <section class="w-screen h-screen bg-[#3F3F3F] flex" id="Contact">
+            <div class=" flex m-auto">
+            <form action="" class=" pt-[2rem] w-[50rem]  flex flex-col justify-between h-[25rem] -mt-[18rem]">
+                <h3 class="  text-4xl text-center">Contact Me!!!</h3>
+                <input type="text" class="w-[40rem] h-[3rem] rounded self-center my-2 text-black" placeholder="Input your Email">
+                <textarea name="" id="" class="w-[40rem] self-center mb-2 text-black h-[8rem]" placeholder="Input your Messages!"></textarea>
+                <button class="bg-white text-black max-w-16 flex  rounded justify-center self-center  mb-5 w-[10rem]">Submit</button>
+                
+            </form>
+            <div>
+            
+
             </div>
-        </div>
-        <div class="projectblocks">
-            <img src="img/project.jpeg" alt="">
-            <div class="projecttext">
-            <h4>My Project</h4>
-        </div>
-        </div>
-    </div>
-   </div>
-   <!-- FOOTER -->
-   <div class="Contact" id="footer">
-        <h3>Contact me</h3>
-        <div class="medsos">
-            <img src="img/ig.svg" alt="">
-            <img src="img/github.svg" alt="">
-            <img src="img/linkedin.svg" alt="">
-        </div>
-        <h4>Made by bangsat12</h4>
-   </div>
+            </div>
+            
+        </section>
+        <section class="bg-[#292929] h-[10rem] ">
+            <div class="flex justify-around h-[10rem] items-center  ">
+                    <img src="/src/img/ig.svg" alt="" class="max-w-12 rounded-full hover:p-2">
+                    <img src="/src/img/linkedin.svg" alt="" class="max-w-12  rounded-full hover:p-2" >
+                    <img src="/src/img/utups.png" alt="" class="max-w-12 rounded-full hover:p-2">
+                    <img src="/src/img/github.svg" alt="" class="max-w-12 rounded-full hover:p-2">
 
-
+       
+            </div>
+        </section>
+    </main>
 </body>
-</html>
+</html> 
