@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Satria Raja Djuanda</title>
-    <link rel="icon" href="">
+    <link rel="icon" href="/src/img/icon.jpg">
     <script src="https://cdn.tailwindcss.com"></script>
   
     <style>
@@ -16,12 +16,12 @@
 <body class="text-white font-serif " style="text-shadow:0 1.5px 0.5px black;">
     <main>
         <!-- LandPage    -->
-        <section class="landpage w-screen h-screen bg-[url(/src/img/pxArt.png)] bg-no-repeat bg-cover flex items-center pl-36 ">
+        <section class="landpage w-screen h-screen bg-[url(/src/img/pxArt.png)] bg-no-repeat bg-cover flex items-center pl-36">
             <div class="mb-17  w-[30rem] h-[20rem]">
                 <div class="Title flex">
-                <h1 class="text-8xl" >Satria.</h1>
+                <a href="https://www.youtube.com/@Mr.Papalitas" target="_blank"><h1 class="text-8xl cursor-cursor">Satria.</h1></a>
                 <span class="garis border-r-[1px] border-slate-50/20 mx-2"></span>
-                <span class="text-xl mt-11">Game Developer</span>
+                <span class="text-xl mt-11 cursor-default">Game Developer</span>
                 </div>
                 <ul class="text-4xl flex flex-col justify-evenly">
                     <li><a href="#AboutMe" class=hover:bg-black>Start Explore</a></li>
@@ -30,6 +30,7 @@
                     <li><a href="#Contact" class=hover:bg-black>Contact</a></li>
                 </ul>
             </div>
+            
         </section>
         <!-- About me -->
         <section class="w-screen h-screen bg-[#3F3F3F] flex flex-col" id="AboutMe">
@@ -45,13 +46,13 @@
                             <h4 class="m-auto">My Skills</h4>
                             <button onclick=toogle() id="buttonSkills" class="max-w-6 mx-auto" ><img src="/src/img/down-arrow.png" alt=""></button>
                         </div>
-                            <div class="hidden w-[12rem] self-center h-[10rem] mb-[5rem]  " id="Skills">
-                                <div class=" flex flex-wrap m-auto justify-around overflow" >
-                                <img src="/src/img/unity.png" alt="" class="max-w-12 rounded-2xl  hover:p-1">
-                                <img src="/src/img/godot.png" alt="" class="max-w-12 roounded-2xl hover:p-1">
-                                <img src="/src/img/js.png" alt="" class="max-w-12 rounded hover:p-1">
-                                <img src="/src/img/html.png" alt="" class="max-w-12 rounded2xl hover:p-1">
-                                <img src="/src/img/css.jpg" alt="" class="max-w-12 rounded-2xl hover:p-1">
+                            <div class="hidden w-[12rem] self-center h-[10rem] mb-[5rem] justify-around overflow flex-wrap  m-auto" id="Skills">
+                                <div class=" flex " >
+                                <img src="/src/img/unity.png" alt="" class="max-w-[3.5rem] max-h-[3.5rem] rounded-2xl  hover:p-1">
+                                <img src="/src/img/godot.png" alt="" class="max-w-[3.5rem] max-h-[3.5rem] roounded-2xl hover:p-1">
+                                <img src="/src/img/js.png" alt="" class="max-w-[3.5rem] max-h-[3.5rem] rounded hover:p-1">
+                                <img src="/src/img/html.png" alt="" class="max-w-[3.5rem] max-h-[3.5rem] rounded2xl hover:p-1">
+                                <img src="/src/img/css.jpg" alt="" class="max-w-[3.5rem] max-h-[3.5rem] rounded-2xl hover:p-1">
                             
                             </div>
                         </div>
@@ -68,7 +69,7 @@
         <!-- Projects -->
         <section class="w-screen h-screen bg-[#3F3F3F] px-10" id="Projects">
             <h1 class="text-5xl text-center">Projects</h1>
-            <div class="flex justify-around mt-5 items-center h-[20rem] ">
+            <div class="flex justify-around items-center h-[20rem] ">
                 <img src="/src/img/project.jpeg" alt="" class="max-w-[15rem] max-h-[15rem] hover:opacity-[0.8] "   >
                 <img src="/src/img/project.jpeg" alt="" class="max-w-[15rem] max-h-[15rem] hover:opacity-[0.8]  "   >
                 <img src="/src/img/project.jpeg" alt="" class="max-w-[15rem] max-h-[15rem] hover:opacity-[0.8]"   >
@@ -77,10 +78,10 @@
             </div>  
 
             <div class="flex justify-around">
-                <h2 class="text-3xl cursor-pointer hover:text-black ">Project</h2>
-                <h2 class="text-3xl cursor-pointer hover:text-black  ">Project</h2>
-                <h2 class="text-3xl cursor-pointer hover:text-black">Project</h2>
-                <h2 class="text-3xl cursor-pointer hover:text-black">Project</h2>
+                <h2 class="text-3xl cursor-pointer">Project</h2>
+                <h2 class="text-3xl cursor-pointer  ">Project</h2>
+                <h2 class="text-3xl cursor-pointer">Project</h2>
+                <h2 class="text-3xl cursor-pointer">Project</h2>
             </div>
           
 
@@ -90,9 +91,9 @@
             <div class=" flex m-auto">
             <form action="" class=" pt-[2rem] w-[50rem]  flex flex-col justify-between h-[25rem] -mt-[18rem]">
                 <h3 class="  text-4xl text-center">Contact Me!!!</h3>
-                <input type="text" class="w-[40rem] h-[3rem] rounded self-center my-2 text-black" placeholder="Input your Email">
-                <textarea name="" id="" class="w-[40rem] self-center mb-2 text-black h-[8rem]" placeholder="Input your Messages!"></textarea>
-                <button class="bg-white text-black max-w-16 flex  rounded justify-center self-center  mb-5 w-[10rem]">Submit</button>
+                <input type="text" class="w-[40rem] h-[3rem] rounded self-center my-2 text-black " placeholder="Input your Email">
+                <textarea name="" id="" class="w-[40rem] self-center mb-2 text-black h-[8rem] rounded " placeholder="Input your Messages!"></textarea>
+                <button class="bg-white text-black max-w-16 flex  rounded justify-center self-center  mb-5 w-[10rem] hover:bg-black hover:text-white">Submit</button>
                 
             </form>
             <div>
