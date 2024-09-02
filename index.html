@@ -16,18 +16,18 @@
 <body class="text-white font-serif " style="text-shadow:0 1.5px 0.5px black;">
     <main>
         <!-- LandPage    -->
-        <section class="landpage w-screen h-screen bg-[url(/src/img/pxArt.png)] bg-no-repeat bg-cover flex items-center pl-36">
-            <div class="mb-17  w-[30rem] h-[20rem]">
+        <section class="landpage w-screen h-screen bg-[url(/src/img/pxArt.png)] bg-no-repeat bg-cover flex items-center pl-[2rem] md:pl-[10rem]">
+            <div class="mb-17  w-[30rem] h-[15rem] ">
                 <div class="Title flex">
-                <a href="https://www.youtube.com/@Mr.Papalitas" target="_blank"><h1 class="text-8xl cursor-cursor">Satria.</h1></a>
+                <a href="https://www.youtube.com/@Mr.Papalitas" target="_blank"><h1 class="text-5xl cursor-cursor md:text-8xl">Satria.</h1></a>
                 <span class="garis border-r-[1px] border-slate-50/20 mx-2"></span>
-                <span class="text-xl mt-11 cursor-default">Game Developer</span>
+                <span class="text-xl mt-3 cursor-default md:mt-10">Game Developer</span>
                 </div>
-                <ul class="text-4xl flex flex-col justify-evenly">
-                    <li><a href="#AboutMe" class=hover:bg-black>Start Explore</a></li>
-                    <li><a href="#AboutMe" class=hover:bg-black>About me</a></li>
-                    <li><a href="#Projects" class=hover:bg-black>Projects</a></li>
-                    <li><a href="#Contact" class=hover:bg-black>Contact</a></li>
+                <ul class="text-4xl flex flex-col justify-evenly ">
+                    <li><a href="#AboutMe" class="hover:bg-black text-3xl md:text-4xl">Start Explore</a></li>
+                    <li><a href="#AboutMe" class="hover:bg-black text-3xl md:text-4xl">About me</a></li>
+                    <li><a href="#Projects" class="hover:bg-black text-3xl md:text-4xl">Projects</a></li>
+                    <li><a href="#Contact" class="hover:bg-black text-3xl md:text-4xl">Contact</a></li>
                 </ul>
             </div>
             
@@ -37,29 +37,29 @@
             <div class=" | tittle | flex justify-center max-h-20 w-screen bg-purple my-4">
                 <h1 class="text-5xl flex items-center">About me</h1>
             </div>
-            <div class="| kotak | bg-[#0000008E] h-[30rem] w-[78rem] mx-auto rounded-xl">
+            <div class="| kotak | bg-[#0000008E] md:h-[30rem] md:w-[78rem] w-screen h-[50rem] mx-auto rounded-xl">
                  <div class="|Gap| mx-[2.5rem]">
-                    <div class="|img+skill| float-right bg-[#3F3F3F] -slate-400 w-[18rem] flex flex-col mt-auto h-[25rem] rounded">
+                    <div class="|img+skill| md:float-right bg-[#3F3F3F] md:w-[18rem] flex flex-col   md:mt-auto md:h-[25rem] rounded w-[10rem] m-auto mt-5 ">
                         <img src="/src/img/Satria Raja Djuanda.jpg" alt="" class="max-w-32 flex mx-auto mt-4 rounded-2xl">
                         
                         <div class="|Skills| flex flex-col max-w-[15rem] mx-auto mt-2">
                             <h4 class="m-auto">My Skills</h4>
                             <button onclick=toogle() id="buttonSkills" class="max-w-6 mx-auto" ><img src="/src/img/down-arrow.png" alt=""></button>
                         </div>
-                            <div class="hidden w-[12rem] self-center h-[10rem] mb-[5rem] justify-around overflow flex-wrap  m-auto" id="Skills">
-                                <div class=" flex " >
-                                <img src="/src/img/unity.png" alt="" class="max-w-[3.5rem] max-h-[3.5rem] rounded-2xl  hover:p-1">
-                                <img src="/src/img/godot.png" alt="" class="max-w-[3.5rem] max-h-[3.5rem] roounded-2xl hover:p-1">
-                                <img src="/src/img/js.png" alt="" class="max-w-[3.5rem] max-h-[3.5rem] rounded hover:p-1">
-                                <img src="/src/img/html.png" alt="" class="max-w-[3.5rem] max-h-[3.5rem] rounded2xl hover:p-1">
-                                <img src="/src/img/css.jpg" alt="" class="max-w-[3.5rem] max-h-[3.5rem] rounded-2xl hover:p-1">
+                            <div class="hidden md:w-[12rem] self-center md:h-[10rem] mb-[5rem] justify-around overflow flex-wrap m-auto h-[3rem] " id="Skills">
+                                <div class=" flex flex-wrap w-[10rem] items-start m-auto">
+                                <img src="/src/img/unity.png" alt="" class=" rounded-2xl  hover:p-1 w-[3rem] h-[3rem] md:max-w-[3.5rem] md:max-h-[3.5rem]">
+                                <img src="/src/img/godot.png" alt="" class="w-[3rem] h-[3rem] md:max-w-[3.5rem] md:max-h-[3.5rem] roounded-2xl hover:p-1">
+                                <img src="/src/img/js.png" alt="" class="w-[3rem] h-[3rem] md:max-w-[3.5rem] md:max-h-[3.5rem] rounded hover:p-1">
+                                <img src="/src/img/html.png" alt="" class="w-[3rem] h-[3rem] md:max-w-[3.5rem] md:max-h-[3.5rem] rounded2xl hover:p-1">
+                                <img src="/src/img/css.jpg" alt="" class="w-[3rem] h-[3rem] md:max-w-[3.5rem] md:max-h-[3.5rem] rounded-2xl hover:p-1">
                             
                             </div>
                         </div>
                     </div>
                     
-                    <div class="mt-16 max-w-[55rem] "> 
-                        <h3 class="text-4xl mt-8">Satria Raja Djuanda</h3>
+                    <div class="md:mt-16 md:max-w-[55rem] "> 
+                        <h3 class="text-4xl mt-5">Satria Raja Djuanda</h3>
                         <p class="text-3xl my-5">Hello 👋, I'm a Software Engineer Students from SMK Plus Pelita Nusantara.I have a big interest in Game Development.Curently i learn a C# for develop Games with UnityEngine, but I have some knowledge about GdScripts from Godot.Nice to meet you..</p>
                     </div>
                 </div>
